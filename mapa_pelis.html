@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef3ed82a54a7a78827fb8cd01f31b976 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ef3ed82a54a7a78827fb8cd01f31b976" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ef3ed82a54a7a78827fb8cd01f31b976 = L.map(
+                "map_ef3ed82a54a7a78827fb8cd01f31b976",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_531a665a2f8e15e4fae20d8807141b41 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_531a665a2f8e15e4fae20d8807141b41.addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var marker_98784d386b54da249ffc4365696bff0b = L.marker(
+                [45.512794, -122.679565],
+                {
+}
+            ).addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var icon_f9b2f0b5bda349afe153268a9f4bb4f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61e86f81c8e5c453fded172c01144cc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3bdb124c7fa15b0b40ca00b2436cd26f = $(`<div id="html_3bdb124c7fa15b0b40ca00b2436cd26f" style="width: 100.0%; height: 100.0%;"><b>Coraline</b><br>Director: Henry Selick<br>Año: 2009</div>`)[0];
+                popup_61e86f81c8e5c453fded172c01144cc3.setContent(html_3bdb124c7fa15b0b40ca00b2436cd26f);
+            
+        
+
+        marker_98784d386b54da249ffc4365696bff0b.bindPopup(popup_61e86f81c8e5c453fded172c01144cc3)
+        ;
+
+        
+    
+    
+                marker_98784d386b54da249ffc4365696bff0b.setIcon(icon_f9b2f0b5bda349afe153268a9f4bb4f8);
+            
+    
+            var marker_b64c11cad7e422d138a9c4f077a8ecab = L.marker(
+                [51.4545, -2.5879],
+                {
+}
+            ).addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var icon_abac290f2fd22cf2917ca9a8801b3c9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93d540a354f923cbc33e79eaada78caf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_789fd416e96993cdcf630ec08f245840 = $(`<div id="html_789fd416e96993cdcf630ec08f245840" style="width: 100.0%; height: 100.0%;"><b>Chicken Run</b><br>Director: Peter Lord, Nick Park<br>Año: 2000</div>`)[0];
+                popup_93d540a354f923cbc33e79eaada78caf.setContent(html_789fd416e96993cdcf630ec08f245840);
+            
+        
+
+        marker_b64c11cad7e422d138a9c4f077a8ecab.bindPopup(popup_93d540a354f923cbc33e79eaada78caf)
+        ;
+
+        
+    
+    
+                marker_b64c11cad7e422d138a9c4f077a8ecab.setIcon(icon_abac290f2fd22cf2917ca9a8801b3c9f);
+            
+    
+            var marker_a30a9a756f000a680fafc4eb5044f05c = L.marker(
+                [40.7723, -73.9835],
+                {
+}
+            ).addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var icon_2a7cd0bbc87810e2ae25bc1052ac5fc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf81e90285a7da94db7f642db9e49ba1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3b0e66340297c7d5b1b3d9acd8cc3dc = $(`<div id="html_e3b0e66340297c7d5b1b3d9acd8cc3dc" style="width: 100.0%; height: 100.0%;"><b>Black Swan</b><br>Director: Darren Aronofsky<br>Año: 2010</div>`)[0];
+                popup_bf81e90285a7da94db7f642db9e49ba1.setContent(html_e3b0e66340297c7d5b1b3d9acd8cc3dc);
+            
+        
+
+        marker_a30a9a756f000a680fafc4eb5044f05c.bindPopup(popup_bf81e90285a7da94db7f642db9e49ba1)
+        ;
+
+        
+    
+    
+                marker_a30a9a756f000a680fafc4eb5044f05c.setIcon(icon_2a7cd0bbc87810e2ae25bc1052ac5fc1);
+            
+    
+            var marker_d2f4643c3d46c79468381aef5f5643da = L.marker(
+                [-13.174356, -74.191686],
+                {
+}
+            ).addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var icon_2e6c60f0bb4f6c5a1fd24542bb7bb75b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b521f22166512275d0141abefbf9d4af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d90d69aaf7ee089701be3c99ceb30721 = $(`<div id="html_d90d69aaf7ee089701be3c99ceb30721" style="width: 100.0%; height: 100.0%;"><b>Retablo</b><br>Director: Álvaro Delgado Aparicio<br>Año: 2017</div>`)[0];
+                popup_b521f22166512275d0141abefbf9d4af.setContent(html_d90d69aaf7ee089701be3c99ceb30721);
+            
+        
+
+        marker_d2f4643c3d46c79468381aef5f5643da.bindPopup(popup_b521f22166512275d0141abefbf9d4af)
+        ;
+
+        
+    
+    
+                marker_d2f4643c3d46c79468381aef5f5643da.setIcon(icon_2e6c60f0bb4f6c5a1fd24542bb7bb75b);
+            
+    
+            var marker_616500e28499f8ce91a724ffec833075 = L.marker(
+                [34.4464, -118.508],
+                {
+}
+            ).addTo(map_ef3ed82a54a7a78827fb8cd01f31b976);
+        
+    
+            var icon_4aa3a57c764615925914d5f963a81a59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bc325c07ae4aeb4201315431bc91989 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8f651553a815d3044aa4f6c99368d0d = $(`<div id="html_d8f651553a815d3044aa4f6c99368d0d" style="width: 100.0%; height: 100.0%;"><b>Little Miss Sunshine</b><br>Director: Jonathan Dayton, Valerie Faris<br>Año: 2006</div>`)[0];
+                popup_0bc325c07ae4aeb4201315431bc91989.setContent(html_d8f651553a815d3044aa4f6c99368d0d);
+            
+        
+
+        marker_616500e28499f8ce91a724ffec833075.bindPopup(popup_0bc325c07ae4aeb4201315431bc91989)
+        ;
+
+        
+    
+    
+                marker_616500e28499f8ce91a724ffec833075.setIcon(icon_4aa3a57c764615925914d5f963a81a59);
+            
+</script>
+</html>
